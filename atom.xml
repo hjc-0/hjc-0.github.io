@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-16T01:45:52.512Z</updated>
+  <updated>2022-05-23T09:08:20.448Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/05/22/spark%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/"/>
+    <id>http://example.com/2022/05/22/spark%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-05-22T08:09:38.172Z</published>
+    <updated>2022-05-23T09:08:20.448Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="基础环境"><a href="#基础环境" class="headerlink" title="基础环境"></a>基础环境</h1><h2 id="1、导入三台虚拟机，三台虚拟机信息汇总"><a href="#1、导入三台虚拟机，三台虚拟机信息汇总" class="headerlink" title="1、导入三台虚拟机，三台虚拟机信息汇总"></a>1、导入三台虚拟机，三台虚拟机信息汇总</h2><table><thead><tr><th align="center">主机名</th><th align="center">node1.itcast.cn</th><th align="center">node2.itcast.cn</th><th align="center">node3.iecast.cn</th></tr></thead><tbody><tr><td align="center">IP</td><td align="center">192.168.88.151</td><td align="center">192.168.88.152</td><td align="center">192.168.88.153</td></tr><tr><td align="center">用户名、密码</td><td align="center">root&#x2F;123456</td><td align="center">root&#x2F;123456</td><td align="center">root&#x2F;123456</td></tr></tbody></table><h2 id="2、集群角色规划"><a href="#2、集群角色规划" class="headerlink" title="2、集群角色规划"></a>2、集群角色规划</h2><table><thead><tr><th align="center">服务器</th><th align="center">运行角色</th></tr></thead><tbody><tr><td align="center">node1.itcast.cn</td><td align="center">namenode（主角色） datanode（从角色） resourcemanager（主角色） nodemanager（从角色）</td></tr><tr><td align="center">node2.itcast.cn</td><td align="center">secondarynamenode（主角色辅助角色） datanode（从角色） nodemanager（从角色）</td></tr><tr><td align="center">node3.itcast.cn</td><td align="center">datanode（从角色） nodemanager（从角色）</td></tr></tbody></table><h2 id="3、hosts映射"><a href="#3、hosts映射" class="headerlink" title="3、hosts映射"></a>3、hosts映射</h2><p><img src="E:\blog\source\picture\hosts映射.png" alt="hosts映射"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;基础环境&quot;&gt;&lt;a href=&quot;#基础环境&quot; class=&quot;headerlink&quot; title=&quot;基础环境&quot;&gt;&lt;/a&gt;基础环境&lt;/h1&gt;&lt;h2 id=&quot;1、导入三台虚拟机，三台虚拟机信息汇总&quot;&gt;&lt;a href=&quot;#1、导入三台虚拟机，三台虚拟机信息汇总&quot; class</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
