@@ -119,16 +119,22 @@
 
 <hr>
 </article><article><h1 id="kafka-API使用方法"><a href="#kafka-API使用方法" class="headerlink" title="kafka API使用方法"></a>kafka API使用方法</h1><hr>
-<p>title: kafka API使用方法<br>date: 2022-6-7 18:20:00</p>
+<p>title: kafka API使用方法<br>date: 2022-6-7 18:20:00<br>description: kafka API使用方法</p>
 <details>
 <summary>阅读全文</summary>
-1、一个正常的生产逻辑需要具备以下几个步骤
-   >>> 
-    （1）、配置生产者客户端参数及创建相应的生产者实例；
-    （2）、构建待发送的消息；
-    （3）、发送消息；
-    （4）、关闭生产者实例。
 
+<p>1、一个正常的生产逻辑需要具备以下几个步骤</p>
+<blockquote>
+<blockquote>
+<blockquote>
+</blockquote>
+<pre><code>（1）、配置生产者客户端参数及创建相应的生产者实例；
+（2）、构建待发送的消息；
+（3）、发送消息；
+（4）、关闭生产者实例。
+</code></pre>
+</blockquote>
+</blockquote>
 <p>2、生产者API采用默认分区方式将消息散列的发送到各个分区中。</p>
 <p>3、什么时候会发生重复写入：producer的重试机制中，检测到一条数据的发送失败，而实际上已经发送成功，只是因为服务端响应超时。</p>
 <p>4、什么时候会发生数据写入的丢失：ack参数的配置。</p>
